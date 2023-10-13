@@ -1,0 +1,42 @@
+.hero {
+  padding: 214px 0 136px 0;
+background-image: url("../../img/background-phone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 1px solid black;
+
+  &__title {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  &__paragraph {
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    width: 220px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 17px;
+  }
+}
+
+.hero-btn {
+  border: none;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  width: 282px;
+  height: 43px;
+  background-color: #ff4e50;
+  padding: 13px 38px;
+  border-radius: 20px;
+}

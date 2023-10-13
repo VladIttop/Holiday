@@ -1,0 +1,43 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.header-list {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+
+  &__item:nth-child(2) {
+    border: 2px solid white;
+    border-radius: 18px;
+  }
+
+  &__link {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px 17px;
+  }
+}
+
+.header__logo {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 19px;
+  gap: 112px;
+}
